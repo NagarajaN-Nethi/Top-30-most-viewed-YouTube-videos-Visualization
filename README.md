@@ -4,7 +4,7 @@ Using the power of Beautiful Soup to scrape data from Wikipedia articles.
 This script fetches the latest data from [List of most-viewed YouTube videos](https://en.wikipedia.org/wiki/List_of_most-viewed_YouTube_videos) articles over on Wikipedia.
 I used this [blog](https://www.pylenin.com/blogs/web-scraping-python-bs4/) as a reference for this project.
 
-[Check the Vizulization now!](https://public.tableau.com/app/profile/nagarajan4395/viz/Top30MostViewedYouTubeVideosVisualization/Dashboard1)
+[Check the Vizulization now!](https://public.tableau.com/app/profile/nagarajan4395/viz/Top30MostViewedYouTubeVideosVisualization/DashBoard)
 
 # Feuture Updates:
 
