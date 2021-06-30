@@ -46,4 +46,3 @@ def script():
     df = df.iloc[:,1:5] #keeping only relevent columns
     df.to_csv(r'C:\Users\nseka\Desktop\desktop\Wikipedia Scrap\final_script_top_videos.csv', index = False, header = True)
     return df
-script()
