@@ -6,7 +6,7 @@ I used this [blog](https://www.pylenin.com/blogs/web-scraping-python-bs4/) as a 
 
 [Check the Vizulization now!](https://public.tableau.com/app/profile/nagarajan4395/viz/Top30MostViewedYouTubeVideosVisualization/DashBoard)
 
-# Feuture Updates:
+# Future Updates:
 
 1. ~~Make Visualization using this data.~~ [Added now!!](https://public.tableau.com/app/profile/nagarajan4395/viz/Top30MostViewedYouTubeVideosVisualization/DashBoard)
 2. Make this an in general script so that any table can be scraped from any articles on Wikipedia.
