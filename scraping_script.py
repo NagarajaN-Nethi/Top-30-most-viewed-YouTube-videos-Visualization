@@ -38,11 +38,11 @@ def script():
 
     import csv
 
-    with open(r'C:\Users\nseka\Desktop\desktop\Wikipedia Scrap\script_top_videos.csv', 'w', newline="") as output:
+    with open('script_top_videos.csv', 'w', newline="") as output:
         writer = csv.writer(output)
         writer.writerow(headers)
         writer.writerows(rows)
-    df = pd.read_csv(r'C:\Users\nseka\Desktop\desktop\Wikipedia Scrap\script_top_videos.csv',encoding= 'unicode_escape')
+    df = pd.read_csv('script_top_videos.csv',encoding= 'unicode_escape')
     df = df.iloc[:,1:5] #keeping only relevent columns
-    df.to_csv(r'C:\Users\nseka\Desktop\desktop\Wikipedia Scrap\final_script_top_videos.csv', index = False, header = True)
+    df.to_csv('final_script_top_videos.csv', index = False, header = True)
     return df
